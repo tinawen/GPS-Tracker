@@ -2,6 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>gps.png</string>
+		<string>gps@2x.png</string>
+		<string>gps-Small.png</string>
+		<string>gps-Small@2x.png</string>
+		<string>gps-Small-50.png</string>
+		<string>gps-Small-50@2x.png</string>
+		<string>gps-72.png</string>
+		<string>gps-72@2x.png</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>db-thdvs0uqcivbpzd</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

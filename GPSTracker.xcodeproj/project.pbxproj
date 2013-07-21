@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26939342179B2BDD007BD074 /* unlink.png in Resources */ = {isa = PBXBuildFile; fileRef = 26939340179B2BDD007BD074 /* unlink.png */; };
+		26939343179B2BDD007BD074 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = 26939341179B2BDD007BD074 /* link.png */; };
+		2693934B179B2F31007BD074 /* gps.png in Resources */ = {isa = PBXBuildFile; fileRef = 26939349179B2F31007BD074 /* gps.png */; };
+		2693934C179B2F31007BD074 /* gps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2693934A179B2F31007BD074 /* gps@2x.png */; };
+		26939353179B307D007BD074 /* gps-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2693934D179B307D007BD074 /* gps-72.png */; };
+		26939354179B307D007BD074 /* gps-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2693934E179B307D007BD074 /* gps-72@2x.png */; };
+		26939355179B307D007BD074 /* gps-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2693934F179B307D007BD074 /* gps-Small.png */; };
+		26939356179B307D007BD074 /* gps-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 26939350179B307D007BD074 /* gps-Small-50.png */; };
+		26939357179B307D007BD074 /* gps-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26939351179B307D007BD074 /* gps-Small-50@2x.png */; };
+		26939358179B307D007BD074 /* gps-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26939352179B307D007BD074 /* gps-Small@2x.png */; };
 		26A4507B176402370037978F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4507A176402370037978F /* UIKit.framework */; };
 		26A4507D176402370037978F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4507C176402370037978F /* Foundation.framework */; };
 		26A4507F176402370037978F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4507E176402370037978F /* CoreGraphics.framework */; };
@@ -17,10 +27,30 @@
 		26A4508F176402370037978F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A4508E176402370037978F /* Default@2x.png */; };
 		26A45091176402370037978F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A45090176402370037978F /* Default-568h@2x.png */; };
 		26A45094176402370037978F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A45092176402370037978F /* MainStoryboard.storyboard */; };
-		26A45097176402370037978F /* GPSTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A45096176402370037978F /* GPSTrackerViewController.m */; };
+		26A4509E176402960037978F /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4509D176402960037978F /* Dropbox.framework */; };
+		26A450A0176402A60037978F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4509F176402A60037978F /* CoreLocation.framework */; };
+		26A450A2176402AB0037978F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A450A1176402AB0037978F /* MapKit.framework */; };
+		26A450A61764038F0037978F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A450A51764038F0037978F /* libc++.dylib */; };
+		26A450A81764039D0037978F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A450A71764039D0037978F /* SystemConfiguration.framework */; };
+		26A450AA176403A60037978F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A450A9176403A60037978F /* Security.framework */; };
+		26A450AC176403AF0037978F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A450AB176403AF0037978F /* QuartzCore.framework */; };
+		26A450AE176403C00037978F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A450AD176403C00037978F /* libsqlite3.dylib */; };
+		26A450B0176403D20037978F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A450AF176403D20037978F /* CFNetwork.framework */; };
+		26A450B3176417CF0037978F /* GPSTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A450B2176417CF0037978F /* GPSTrackerViewController.m */; };
+		26D07BD8179A5348008E3D7B /* GPSTrackerLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D07BD7179A5348008E3D7B /* GPSTrackerLocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26939340179B2BDD007BD074 /* unlink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlink.png; sourceTree = "<group>"; };
+		26939341179B2BDD007BD074 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		26939349179B2F31007BD074 /* gps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps.png; sourceTree = "<group>"; };
+		2693934A179B2F31007BD074 /* gps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps@2x.png"; sourceTree = "<group>"; };
+		2693934D179B307D007BD074 /* gps-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps-72.png"; sourceTree = "<group>"; };
+		2693934E179B307D007BD074 /* gps-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps-72@2x.png"; sourceTree = "<group>"; };
+		2693934F179B307D007BD074 /* gps-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps-Small.png"; sourceTree = "<group>"; };
+		26939350179B307D007BD074 /* gps-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps-Small-50.png"; sourceTree = "<group>"; };
+		26939351179B307D007BD074 /* gps-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps-Small-50@2x.png"; sourceTree = "<group>"; };
+		26939352179B307D007BD074 /* gps-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps-Small@2x.png"; sourceTree = "<group>"; };
 		26A45077176402370037978F /* GPSTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A4507A176402370037978F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26A4507C176402370037978F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +65,20 @@
 		26A4508E176402370037978F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		26A45090176402370037978F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		26A45093176402370037978F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		26A45095176402370037978F /* GPSTrackerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSTrackerViewController.h; sourceTree = "<group>"; };
-		26A45096176402370037978F /* GPSTrackerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSTrackerViewController.m; sourceTree = "<group>"; };
+		26A4509D176402960037978F /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		26A4509F176402A60037978F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		26A450A1176402AB0037978F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		26A450A3176403080037978F /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		26A450A51764038F0037978F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		26A450A71764039D0037978F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		26A450A9176403A60037978F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		26A450AB176403AF0037978F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		26A450AD176403C00037978F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		26A450AF176403D20037978F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		26A450B1176417CF0037978F /* GPSTrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSTrackerViewController.h; sourceTree = "<group>"; };
+		26A450B2176417CF0037978F /* GPSTrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSTrackerViewController.m; sourceTree = "<group>"; };
+		26D07BD6179A5348008E3D7B /* GPSTrackerLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSTrackerLocationManager.h; sourceTree = "<group>"; };
+		26D07BD7179A5348008E3D7B /* GPSTrackerLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSTrackerLocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,19 +86,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A450B0176403D20037978F /* CFNetwork.framework in Frameworks */,
+				26A450AE176403C00037978F /* libsqlite3.dylib in Frameworks */,
+				26A450AC176403AF0037978F /* QuartzCore.framework in Frameworks */,
+				26A450AA176403A60037978F /* Security.framework in Frameworks */,
+				26A450A81764039D0037978F /* SystemConfiguration.framework in Frameworks */,
+				26A450A61764038F0037978F /* libc++.dylib in Frameworks */,
+				26A450A2176402AB0037978F /* MapKit.framework in Frameworks */,
+				26A450A0176402A60037978F /* CoreLocation.framework in Frameworks */,
 				26A4507B176402370037978F /* UIKit.framework in Frameworks */,
 				26A4507D176402370037978F /* Foundation.framework in Frameworks */,
 				26A4507F176402370037978F /* CoreGraphics.framework in Frameworks */,
+				26A4509E176402960037978F /* Dropbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26939344179B2BE8007BD074 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26939349179B2F31007BD074 /* gps.png */,
+				2693934A179B2F31007BD074 /* gps@2x.png */,
+				2693934D179B307D007BD074 /* gps-72.png */,
+				2693934E179B307D007BD074 /* gps-72@2x.png */,
+				2693934F179B307D007BD074 /* gps-Small.png */,
+				26939350179B307D007BD074 /* gps-Small-50.png */,
+				26939351179B307D007BD074 /* gps-Small-50@2x.png */,
+				26939352179B307D007BD074 /* gps-Small@2x.png */,
+				26939341179B2BDD007BD074 /* link.png */,
+				26939340179B2BDD007BD074 /* unlink.png */,
+			);
+			name = Resources;
+			path = GPSTracker;
+			sourceTree = "<group>";
+		};
 		26A4506E176402370037978F = {
 			isa = PBXGroup;
 			children = (
 				26A45080176402370037978F /* GPSTracker */,
+				26939344179B2BE8007BD074 /* Resources */,
 				26A45079176402370037978F /* Frameworks */,
 				26A45078176402370037978F /* Products */,
 			);
@@ -73,6 +143,16 @@
 		26A45079176402370037978F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26A450AD176403C00037978F /* libsqlite3.dylib */,
+				26A450A51764038F0037978F /* libc++.dylib */,
+				26A450A3176403080037978F /* libc.dylib */,
+				26A450AF176403D20037978F /* CFNetwork.framework */,
+				26A4509F176402A60037978F /* CoreLocation.framework */,
+				26A450A1176402AB0037978F /* MapKit.framework */,
+				26A450AB176403AF0037978F /* QuartzCore.framework */,
+				26A450A9176403A60037978F /* Security.framework */,
+				26A450A71764039D0037978F /* SystemConfiguration.framework */,
+				26A4509D176402960037978F /* Dropbox.framework */,
 				26A4507A176402370037978F /* UIKit.framework */,
 				26A4507C176402370037978F /* Foundation.framework */,
 				26A4507E176402370037978F /* CoreGraphics.framework */,
@@ -85,9 +165,11 @@
 			children = (
 				26A45089176402370037978F /* GPSTrackerAppDelegate.h */,
 				26A4508A176402370037978F /* GPSTrackerAppDelegate.m */,
+				26A450B1176417CF0037978F /* GPSTrackerViewController.h */,
+				26A450B2176417CF0037978F /* GPSTrackerViewController.m */,
+				26D07BD6179A5348008E3D7B /* GPSTrackerLocationManager.h */,
+				26D07BD7179A5348008E3D7B /* GPSTrackerLocationManager.m */,
 				26A45092176402370037978F /* MainStoryboard.storyboard */,
-				26A45095176402370037978F /* GPSTrackerViewController.h */,
-				26A45096176402370037978F /* GPSTrackerViewController.m */,
 				26A45081176402370037978F /* Supporting Files */,
 			);
 			path = GPSTracker;
@@ -164,6 +246,16 @@
 				26A4508F176402370037978F /* Default@2x.png in Resources */,
 				26A45091176402370037978F /* Default-568h@2x.png in Resources */,
 				26A45094176402370037978F /* MainStoryboard.storyboard in Resources */,
+				26939342179B2BDD007BD074 /* unlink.png in Resources */,
+				26939343179B2BDD007BD074 /* link.png in Resources */,
+				2693934B179B2F31007BD074 /* gps.png in Resources */,
+				2693934C179B2F31007BD074 /* gps@2x.png in Resources */,
+				26939353179B307D007BD074 /* gps-72.png in Resources */,
+				26939354179B307D007BD074 /* gps-72@2x.png in Resources */,
+				26939355179B307D007BD074 /* gps-Small.png in Resources */,
+				26939356179B307D007BD074 /* gps-Small-50.png in Resources */,
+				26939357179B307D007BD074 /* gps-Small-50@2x.png in Resources */,
+				26939358179B307D007BD074 /* gps-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +268,8 @@
 			files = (
 				26A45087176402370037978F /* main.m in Sources */,
 				26A4508B176402370037978F /* GPSTrackerAppDelegate.m in Sources */,
-				26A45097176402370037978F /* GPSTrackerViewController.m in Sources */,
+				26A450B3176417CF0037978F /* GPSTrackerViewController.m in Sources */,
+				26D07BD8179A5348008E3D7B /* GPSTrackerLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +354,10 @@
 		26A4509B176402370037978F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPSTracker/GPSTracker-Prefix.pch";
 				INFOPLIST_FILE = "GPSTracker/GPSTracker-Info.plist";
@@ -272,6 +369,10 @@
 		26A4509C176402370037978F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPSTracker/GPSTracker-Prefix.pch";
 				INFOPLIST_FILE = "GPSTracker/GPSTracker-Info.plist";
@@ -299,6 +400,7 @@
 				26A4509C176402370037978F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

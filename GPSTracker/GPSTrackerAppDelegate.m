@@ -7,15 +7,32 @@
 //
 
 #import "GPSTrackerAppDelegate.h"
+#import <Dropbox/Dropbox.h>
 
 @implementation GPSTrackerAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	
+	DBAccountManager *mgr =
+    [[DBAccountManager alloc] initWithAppKey:@"thdvs0uqcivbpzd" secret:@"uosj98wcdkymuqb"];
+	[DBAccountManager setSharedManager:mgr];
+	
+	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+	UIViewController *root = [storyboard instantiateInitialViewController];
+	self.window.rootViewController = root;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
-							
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    [[DBAccountManager sharedManager] handleOpenURL:url];
+    return YES;
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
